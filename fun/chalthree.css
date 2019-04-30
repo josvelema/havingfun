@@ -1,0 +1,12 @@
+.box {
+    width: 100px;
+    height: 150px;
+    border: 4px ridge #bada55;
+    border-radius: 20px 10px 40px 30px;
+    transform: translateX(0);
+    transition: transform 2s ease-in-out 1s;
+}
+
+.box:hover {
+    transform: translateX(100%);
+}

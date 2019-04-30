@@ -1,0 +1,13 @@
+.box {
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius:100px;
+    width: 150px;
+    height: 150px;
+    margin: 150px;
+    transition: transform 1s ease-in;
+}
+
+.box:hover {
+    transform:scale(2);
+}
